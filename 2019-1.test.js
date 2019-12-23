@@ -1,6 +1,6 @@
 import dayOne from './2019-1'
 
-describe('Day 1', () => {
+describe.skip('Day 1', () => {
     it('12 should yield 2', () => {
         expect(dayOne.run(12)).toBe(2)
     });
